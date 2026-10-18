@@ -15,6 +15,12 @@
 
     - **[WordCraft](文書作成/wordcraft.md)**: Pure Rust製の高速ワードプロセッサ。`.docx`の読み書きに対応したMS Word代替。
 
+-   :material-keyboard-outline:{ .lg .middle } __入力支援__
+
+    ---
+
+    - **[Espanso](入力支援/espanso.md)**: Rust製のクロスプラットフォーム・テキストエキスパンダー。定型文展開や動的スクリプト実行に対応。
+
 -   :material-printer-3d:{ .lg .middle } __3Dプリンター & 造形__
 
     ---
