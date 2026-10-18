@@ -1,0 +1,130 @@
+[project]
+site_name = "便利ツール"
+docs_dir = "docs"
+
+extra_javascript = [
+    "https://cdnjs.cloudflare.com/polyfill/v3/polyfill.js",
+    "javascripts/mathjax.js",
+    "https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js"
+]
+
+[project.theme]
+name = "material"
+language = "ja"
+
+  # --- UI機能 ---
+features = [
+    "content.code.copy",
+    "navigation.top",
+    "search.suggest",
+    "search.highlight",
+    "content.code.annotate",
+]
+
+# --- カラーパレット & ダークモード -- 
+[[project.theme.palette]]
+scheme = "default"
+primary = "indigo"
+accent = "indigo"
+toggle.icon = "lucide/sun"
+toggle.name = "ダークモードに切り替え"
+
+[[project.theme.palette]]
+scheme = "slate"
+primary = "indigo"
+accent = "indigo"
+toggle.icon = "lucide/moon"
+toggle.name = "ライトモードに切り替え"
+
+# --- アイコン & フォント ---
+[project.theme.icon]
+# logo = "material/home"
+# favicon = "*.png"
+
+# 様々なMD拡張の前提
+[project.markdown_extensions.attr_list]
+[project.markdown_extensions.md_in_html] # HTMLタグで記載可能
+
+# 目次
+[project.markdown_extensions.toc]
+title = "このページ"
+permalink = "⚓︎"
+
+# セクションリンクの日本語対応
+[project.markdown_extensions.toc.slugify]
+object = "pymdownx.slugs.slugify"
+kwds = { case = "lower" }
+
+# 数式
+[project.markdown_extensions.pymdownx.arithmatex]
+generic = true
+
+# チェックボックスの表示
+[project.markdown_extensions.pymdownx.tasklist]
+custom_checkbox = true
+
+# 注記
+[project.markdown_extensions.admonition]
+# type: note abstract info, tip success question warning failure danger bug example quate
+# !!! type "タイトル": カード
+
+# 閉じられる注記
+[project.markdown_extensions.pymdownx.details] 
+# ??? type "タイトル": 閉じた状態のカード
+# ???+ type "タイトル": 開いた状態のカード
+
+# == text == でハイライト
+[project.markdown_extensions.pymdownx.mark] 
+
+# チルダで打ち消し線
+[project.markdown_extensions.pymdownx.tilde] 
+
+# Obsidian リンク
+[project.markdown_extensions.wikilinks] 
+
+# 表のセル結合 (__で縦､~~で横)
+[project.markdown_extensions.mdx_spanner] 
+
+# コードハイライト
+[project.markdown_extensions.pymdownx.highlight] # ハイライト
+auto_title=true
+anchor_linenums = true
+linenums = true
+line_spans = "__span"
+pygments_lang_class = true
+
+[project.markdown_extensions.pymdownx.superfences] # コードブロック
+custom_fences = [{ # mermaid の設定
+    name = "mermaid", 
+    class = "mermaid", 
+    format = "pymdownx.superfences.fence_code_format" 
+}]
+
+[project.markdown_extensions.pymdownx.inlinehilite] # インラインコードの色付け 
+# 入力例: `#!python print("test")`
+
+# クリックで画像拡大
+[project.markdown_extensions.zensical.extensions.glightbox]
+
+# キャプション
+[project.markdown_extensions.pymdownx.blocks.caption]
+
+# /// caption
+# Fruit Count
+# ///
+
+# キーボードショートカットの表示
+[project.markdown_extensions.pymdownx.keys]
+# ++ctrl+alt+delete++
+
+# 絵文字
+[project.markdown_extensions.pymdownx.emoji]
+emoji_index = "zensical.extensions.emoji.twemoji"
+emoji_generator = "zensical.extensions.emoji.to_svg"
+
+# タブ
+[project.markdown_extensions.pymdownx.tabbed]
+alternate_style = true
+[project.markdown_extensions.pymdownx.tabbed.slugify]
+object = "pymdownx.slugs.slugify"
+kwds = { case = "lower" }
