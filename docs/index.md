@@ -27,6 +27,12 @@
 
     - **[SolidCraft](3Dプリンター/solidcraft.md)**: Pure Rust製のパラメトリック3D CAD。STL/STEP出力やAI (MCP) 連携に対応。
 
+-   :material-folder-cog-outline:{ .lg .middle } __ファイル管理__
+
+    ---
+
+    - **[Czkawka](ファイル管理/czkawka.md)**: Pure Rust製の超高速な重複ファイル・不要ファイル整理ツール。類似画像や空フォルダ検出に対応。
+
 -   :material-console:{ .lg .middle } __ターミナル & 開発環境__
 
     ---
