@@ -16,11 +16,15 @@
     思考の整理、ドキュメント執筆、組版、校正。  
     Markdown / Typst / Obsidian / 軽量テキストエディタなど。
 
+    [:octicons-arrow-right-24: WORDCRAFT (Word代替)](writing/wordcraft.md)
+
 -   :material-printer-3d:{ .lg .middle } __3Dプリンター & 造形__
 
     ---
 
     3Dモデリング（CAD）、スライサーソフトウェア、プリント支援ツール、モデルプレビュー。
+
+    [:octicons-arrow-right-24: SolidCraft (3D CAD)](3d-print/solidcraft.md)
 
 -   :material-console:{ .lg .middle } __ターミナル & 開発環境__
 
