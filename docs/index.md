@@ -13,30 +13,25 @@
 
     ---
 
-    思考の整理、ドキュメント執筆、組版、校正。  
-    Markdown / Typst / Obsidian / 軽量テキストエディタなど。
-
-    [:octicons-arrow-right-24: WORDCRAFT (Word代替)](writing/wordcraft.md)
+    - **[WORDCRAFT](writing/wordcraft.md)**: Pure Rust製の高速ワードプロセッサ。`.docx`の読み書きに対応したMS Word代替。
 
 -   :material-printer-3d:{ .lg .middle } __3Dプリンター & 造形__
 
     ---
 
-    3Dモデリング（CAD）、スライサーソフトウェア、プリント支援ツール、モデルプレビュー。
-
-    [:octicons-arrow-right-24: SolidCraft (3D CAD)](3d-print/solidcraft.md)
+    - **[SolidCraft](3d-print/solidcraft.md)**: Pure Rust製のパラメトリック3D CAD。STL/STEP出力やAI (MCP) 連携に対応。
 
 -   :material-console:{ .lg .middle } __ターミナル & 開発環境__
 
     ---
 
-    Rust/Go製の爆速モダンCLI代替（`bat`, `eza`, `ripgrep`, `fd`, `starship` 等）、シェル環境、エミュレータ。
+    *(ツール整理中)*
 
 -   :material-toolbox-outline:{ .lg .middle } __日常ユーティリティ__
 
     ---
 
-    ランチャー（Raycast / PowerToys）、ウィンドウ管理、スクリーンショット、クリップボード拡張。
+    *(ツール整理中)*
 
 </div>
 
