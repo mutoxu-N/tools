@@ -1,11 +1,11 @@
 ---
-title: WORDCRAFT
+title: WordCraft
 description: Pure Rust製・高速オープンソースワードプロセッサ（MS Word代替）
 ---
 
-# WORDCRAFT (高速ワードプロセッサ)
+# WordCraft (高速ワードプロセッサ)
 
-[WORDCRAFT](https://getartcraft.com/apps/wordcraft) は、Pure Rust でスクラッチから再構築された高速かつオープンソースのネイティブ・ワードプロセッサです。  
+[WordCraft](https://getartcraft.com/apps/wordcraft) は、Pure Rust でスクラッチから再構築された高速かつオープンソースのネイティブ・ワードプロセッサです。  
 Microsoft Word と互換性のある `.docx` 形式の読み書きに対応し、リボンUI、スタイルギャラリー、表組み、変更履歴（Track Changes）、参考文献管理、差し込み印刷などを備えています。
 
 ---
@@ -21,7 +21,7 @@ Microsoft Word と互換性のある `.docx` 形式の読み書きに対応し�
 
 ## 2. 代替対象 & 比較
 
-| 項目 | WORDCRAFT | Microsoft Word | LibreOffice Writer |
+| 項目 | WordCraft | Microsoft Word | LibreOffice Writer |
 | :--- | :--- | :--- | :--- |
 | **ライセンス** | オープンソース (無料) | プロプライエタリ (サブスク/有料) | オープンソース (MPL) |
 | **言語・基盤** | **Pure Rust** (ネイティブ) | C++ / クラウド依存 | C++ / Java依存あり |

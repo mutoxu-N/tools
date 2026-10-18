@@ -13,7 +13,7 @@
 
     ---
 
-    - **[WORDCRAFT](文書作成/wordcraft.md)**: Pure Rust製の高速ワードプロセッサ。`.docx`の読み書きに対応したMS Word代替。
+    - **[WordCraft](文書作成/wordcraft.md)**: Pure Rust製の高速ワードプロセッサ。`.docx`の読み書きに対応したMS Word代替。
 
 -   :material-printer-3d:{ .lg .middle } __3Dプリンター & 造形__
 

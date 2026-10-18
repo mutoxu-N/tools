@@ -20,7 +20,7 @@
 ├── zensical.toml      # Zensical 設定ファイル (site_name = "便利ツール")
 └── docs/              # ドキュメントルート
     ├── index.md       # ツール選定方針・行動別マップ
-    ├── 文書作成/      # 文書作成 (WORDCRAFT, Markdown, Typst, Obsidian)
+    ├── 文書作成/      # 文書作成 (WordCraft, Markdown, Typst, Obsidian)
     ├── 3Dプリンター/  # 3Dプリンター (SolidCraft, CAD, スライサー)
     ├── ターミナル/    # ターミナル・開発環境 (モダンCLI代替, dotfiles)
     └── ユーティリティ/# その他日常ユーティリティ (ランチャー, ウィンドウ管理)
