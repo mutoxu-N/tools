@@ -13,13 +13,13 @@
 
     ---
 
-    - **[WORDCRAFT](writing/wordcraft.md)**: Pure Rust製の高速ワードプロセッサ。`.docx`の読み書きに対応したMS Word代替。
+    - **[WORDCRAFT](文書作成/wordcraft.md)**: Pure Rust製の高速ワードプロセッサ。`.docx`の読み書きに対応したMS Word代替。
 
 -   :material-printer-3d:{ .lg .middle } __3Dプリンター & 造形__
 
     ---
 
-    - **[SolidCraft](3d-print/solidcraft.md)**: Pure Rust製のパラメトリック3D CAD。STL/STEP出力やAI (MCP) 連携に対応。
+    - **[SolidCraft](3Dプリンター/solidcraft.md)**: Pure Rust製のパラメトリック3D CAD。STL/STEP出力やAI (MCP) 連携に対応。
 
 -   :material-console:{ .lg .middle } __ターミナル & 開発環境__
 
