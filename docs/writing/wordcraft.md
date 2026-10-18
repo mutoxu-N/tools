@@ -63,3 +63,4 @@ cargo run --release
 ## 5. 関連リンク
 - 公式ページ: [https://getartcraft.com/apps/wordcraft](https://getartcraft.com/apps/wordcraft)
 - GitHub リポジトリ: [storytold/wordcraft](https://github.com/storytold/wordcraft)
+

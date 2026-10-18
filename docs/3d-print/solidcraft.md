@@ -67,3 +67,4 @@ cargo run --release -p solidcraft -- --sample
 - 公式サイト: [https://solidcraft.pro/](https://solidcraft.pro/)
 - GitHub リポジトリ: [bherbruck/solidcraft](https://github.com/bherbruck/solidcraft)
 - ドキュメント (The Book): [https://bherbruck.github.io/solidcraft/](https://bherbruck.github.io/solidcraft/)
+
